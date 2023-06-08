@@ -2,6 +2,7 @@ class Atm
 {
 	//states
 	String atm_name="PNB";
+	String name = "mohan";
 	String lction="Chennai";
 	private double bal=100000;
 	//constructors
@@ -22,6 +23,6 @@ class AtmDriver
 	{
 		Atm r=new Atm();
       //System.out.println("balance "+r.bal);
-	    System.out.println("THE ATm BALANCE IS "+r.getBal());
+	    System.out.println("THE ATm BALANCE IS "+r.getBal()+"Account holder name");
 	}
 }
